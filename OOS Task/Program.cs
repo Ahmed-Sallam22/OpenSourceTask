@@ -39,7 +39,7 @@ public class Person{
 }
 
 public class Student : Person {
-    private int year
+    private int _year
     public int Year{
         get { return year }
         set { 
@@ -119,7 +119,7 @@ public class Staff : Person {
                 {
                     throw new Exception("Invalid JoinYear");
                 }
-                _joinYear = compare; 
+                joinY = compare; 
             }
     }
 
